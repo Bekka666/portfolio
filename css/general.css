@@ -117,7 +117,7 @@ h2 {
 .nav-top a:link,
 .nav-top a:visited{
 	display: block;
-	background-color: red;
+	background-color: rgba(234,0,224,.5);
 	text-align: center;
 	color: #fff;
 	text-decoration: none;
@@ -176,7 +176,7 @@ h2 {
 	.nav-top{
 		display: block;
 		max-height: 10rem;
-		background-color:black;
+		background-color: transparent;
 		margin: 0 5%;
 		float: none;
 		text-align: center;
@@ -220,7 +220,6 @@ h2 {
 .nav-bottom{
 	display: block;
 	padding-bottom: 3rem;
-	margin-left: 5%;
 }
 
 .nav-bottom li{
