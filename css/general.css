@@ -25,7 +25,7 @@ html, body{
 	margin: 0;
 	padding: 0;
 	width: 100%;
-	background-color: black;
+	background-color: green;
 	line-height: 1.3;
 }
 
@@ -99,7 +99,7 @@ h2 {
 .nav-btn:link,
 .nav-btn:visited{
 	display: block;
-	background: rgba(255,255,255,.5) url("images/nav-open.svg") no-repeat center center;
+	background: rgba(234,0,224,.5) url("../images/nav-icon.svg") no-repeat center center;
 	height: 40px;
 	width: 40px;
 	position: absolute;
@@ -110,14 +110,14 @@ h2 {
 .nav-btn:hover,
 .nav-btn:focus,
 .nav-btn:active{
-	background-color:#ccc;
+	background-color:#333;
 }
 
 .nav-top a,
 .nav-top a:link,
 .nav-top a:visited{
 	display: block;
-	background-color: #000;
+	background-color: red;
 	text-align: center;
 	color: #fff;
 	text-decoration: none;
@@ -203,4 +203,38 @@ h2 {
 	.nav-top a.active{
 		color: #F00;
 	}
+}
+
+/* Footer -------------------------------------------------------------------------- */
+
+.footer{
+	background-color: rgba(251,62,206,1.00);
+	clear: both;
+	position:relative;
+	z-index: 100;
+}
+
+
+/* Footer Nav -------------------------------------------------------------------------- */
+
+.nav-bottom{
+	display: block;
+	padding-bottom: 3rem;
+	margin-left: 5%;
+}
+
+.nav-bottom li{
+	display:inline-block;
+	text-align: center;
+	margin: 1rem 1.5rem 1rem 0;
+}
+
+.nav-bottom a,
+.nav-bottom a:link,
+.nav-bottom a:visited{
+	color: #fff;
+	text-decoration: none;
+	font-family: 'Open Sans Condensed', sans-serif;
+	font-size: 1rem;
+	font-weight: normal;
 }
